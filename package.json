@@ -1,0 +1,20 @@
+{
+  "name": "curso-webpack",
+  "version": "1.0.0",
+  "description": "curso webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js bundle.js",
+    "build:local": "webpack",
+    "build:external": "webpack --config ./external/webpack.config.js"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@itsjoseantonio",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "3.10.0"
+  }
+}
